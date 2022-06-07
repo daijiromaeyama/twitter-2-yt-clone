@@ -13,8 +13,8 @@ import { SidebarRow } from './SidebarRow'
 
 const Sidebar = () => {
   return (
-    <div className='flex flex-col'>
-      <img className='h-8 w-10' src='https://rebrand.ly/2vnab7q' alt='' />
+    <div className='col-span-2 flex flex-col items-center px-4 md:items-start'>
+      <img className='m-3 h-8 w-10' src='https://rebrand.ly/2vnab7q' alt='' />
       <SidebarRow Icon={HomeIcon} title='Home' />
       <SidebarRow Icon={HashtagIcon} title='Explore' />
       <SidebarRow Icon={BellIcon} title='Notifications' />
